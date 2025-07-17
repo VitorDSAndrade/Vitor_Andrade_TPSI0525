@@ -16,34 +16,82 @@ body {
   line-height: 1.6;
 }
 
-h1 {
-  font-size: 2em;
+
+/* ============================= */
+/*           HEADER             */
+/* ============================= */
+
+.main-header {
+  background-color: #1a1a1a;
+  padding: 25px 20px 10px;
   text-align: center;
-  margin-bottom: 10px;
+  border-bottom: 2px solid #ff8776;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.main-header h1 {
   color: #ff8776;
+  font-size: 2.5em;
+  margin-bottom: 6px;
 }
 
-p {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.1em;
-  color: #ccc;
+.main-header p {
+  color: #bbb;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
-a {
-  display: inline-block;
-  padding: 8px 14px;
-  margin: 10px;
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
+
+/* ============================= */
+/*            NAV               */
+/* ============================= */
+
+.top-nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-center a {
+  padding: 6px 14px;
+  background-color: #333;
+  color: #eee;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.85em;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
-a:hover {
+.nav-center a:hover {
   background-color: #ff8776;
-  color: #fff;
+  color: #121212;
+}
+
+
+/* ============================= */
+/*           FOOTER             */
+/* ============================= */
+
+.main-footer {
+  background-color: #1a1a1a;
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid #ff8776;
+  margin-top: 50px;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.4);
+}
+
+.main-footer p {
+  color: #888;
+  font-size: 0.9em;
 }
 
 
@@ -52,7 +100,8 @@ a:hover {
 /* ============================= */
 
 table {
-  width: 80%;
+  width: 90%;
+  max-width: 1000px;
   margin: 0 auto 20px auto;
   border-collapse: collapse;
   background-color: #1e1e1e;
@@ -63,8 +112,9 @@ table {
 th {
   background-color: #ff8776;
   color: white;
-  padding: 10px;
+  padding: 12px;
   font-size: 1.1em;
+  text-align: center;
 }
 
 td {
@@ -96,33 +146,56 @@ td table td {
 
 
 /* ============================= */
-/*            NAV               */
+/*       TITULOS DAS PÁGINAS    */
 /* ============================= */
 
-.top-nav {
+.page-title {
+  color: #ff8776;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0 5px;
+}
+
+.page-subtitle {
+  color: #ccc;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+/* ============================= */
+/*         NAVEGAÇÃO FINAL      */
+/* ============================= */
+
+.nav-buttons {
+  text-align: center;
+  margin: 40px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333;
-  padding: 10px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  position: relative;
+  gap: 10px;
 }
 
-.nav-center {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-center a {
-  color: white;
+.nav-buttons a {
+  background-color: #3a3a3a;
+  color: #eee;
   font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  padding: 8px 18px;
+  border-radius: 6px;
   text-decoration: none;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #555;
+}
+
+.nav-buttons span.separator {
+  color: #aaa;
+  font-size: 1.2em;
 }
 
 
@@ -132,17 +205,17 @@ td table td {
 
 .container {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .container h1 {
-  font-size: 2.5em;
+  font-size: 2.2em;
   margin-bottom: 10px;
   color: #ff8776;
 }
 
 .container p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #ccc;
   margin-bottom: 30px;
 }
@@ -155,24 +228,25 @@ td table td {
 }
 
 .btn {
-  background: linear-gradient(to right, #ff6962, #ffb092);
-  color: #333;
-  padding: 12px 25px;
+  background: linear-gradient(to right, #ff6a6a, #ffb086);
+  color: #121212;
+  padding: 10px 20px;
   border-radius: 8px;
   font-size: 1em;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .btn:hover {
-  background: linear-gradient(to right, #ffb092, #ff8776);
+  filter: brightness(1.05);
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
 
 /* ============================= */
-/*            PAG1              */
+/*           PAG1               */
 /* ============================= */
 
 .character-img {
@@ -192,7 +266,6 @@ td table td {
   object-position: top center;
 }
 
-/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -223,7 +296,18 @@ td table td {
   font-size: 2em;
   color: white;
   text-decoration: none;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 5px 10px;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
+
+.modal .close:hover {
+  background-color: #ffffff22; /* branco transparente */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
 
 td a {
   background-color: transparent;
@@ -237,16 +321,72 @@ td a:hover {
   background-color: #333;
 }
 
-
 /* ============================= */
-/*            PAG2              */
+/*        RESPONSIVO MOBILE     */
 /* ============================= */
+@media (max-width: 768px) {
+  .main-header h1 {
+    font-size: 1.6em;
+  }
 
-.nav-buttons {
-  text-align: center;
-  margin-top: 20px;
+  .main-header p {
+    font-size: 0.9em;
+  }
+
+  .nav-center {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container h1,
+  .page-title {
+    font-size: 1.5em;
+  }
+
+  .page-subtitle {
+    font-size: 0.95em;
+  }
+
+  .table,
+  table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  th, td {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .character-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-buttons a {
+    display: block;
+    width: 80%;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .modal .close {
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    padding: 4px 8px;
+  }
 }
 
-.nav-buttons a {
-  margin: 10px;
-}
