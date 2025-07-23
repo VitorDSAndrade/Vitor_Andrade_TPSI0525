@@ -5,42 +5,73 @@
     <title>Character Details</title>
 </head>
 <body>
-    <h1>Character Sheets</h1>
-    <p>Each hero with attributes and background story.</p>
-    <br>
+    <header class="main-header">
+        <h1>Dungeons & Dragons Character Vault</h1>
+        <p>Where legends are born.</p>
+        <nav class="top-nav">
+            <div class="nav-center">
+                <a href="../index.html">Home</a>
+                <a href="page1.html">Characters</a>
+                <a href="page2.html">Details</a>
+            </div>
+        </nav>
+    </header>
 
-      <table border="1">
-        <tr>
-            <td><b>Vysseax</b></td>
-            <td>
-                <table border="1">
-                    <tr><td><i>Strength:</i> 18</td></tr>
-                    <tr><td><i>Dexterity:</i> 12</td></tr>
-                    <tr><td><i>Constitution:</i> 16</td></tr>
-                    <tr><td><i>Intelligence:</i> 10</td></tr>
-                    <tr><td><i>Wisdom:</i> 10</td></tr>
-                    <tr><td><i>Charisma:</i> 12</td></tr>
-                    <tr><td><i>Backstory:</i> Warrior from the northern mountains.</td></tr>
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <td><b>Nabe</b></td>
-            <td>
-                <table border="1">
-                    <tr><td><i>Strength:</i> 12</td></tr>
-                    <tr><td><i>Dexterity:</i> 18</td></tr>
-                    <tr><td><i>Constitution:</i> 10</td></tr>
-                    <tr><td><i>Intelligence:</i> 12</td></tr>
-                    <tr><td><i>Wisdom:</i> 16</td></tr>
-                    <tr><td><i>Charisma:</i> 12</td></tr>
-                    <tr><td><i>Backstory:</i> Ranger from the Mystwoods.</td></tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <h1 class="page-title">Character Sheets</h1>
+    <p class="page-subtitle">Each hero with attributes and background story.</p>
 
-    <br>
-    <a href="../index.html">Back to Home</a> | <a href="../pages/page1.html">View Character List</a>
+    <table>
+    <tr>
+        <td><b>Vysseax</b></td>
+        <td>
+            <!-- Tabela de stats -->
+            <table>
+                <tr><td><i>Strength:</i> 18</td></tr>
+                <tr><td><i>Dexterity:</i> 12</td></tr>
+                <tr><td><i>Constitution:</i> 16</td></tr>
+                <tr><td><i>Intelligence:</i> 10</td></tr>
+                <tr><td><i>Wisdom:</i> 10</td></tr>
+                <tr><td><i>Charisma:</i> 12</td></tr>
+            </table>
+            <!-- Tabela de backstory -->
+            <table>
+                <tr>
+                    <td><i>Backstory:</i> Warrior from the northern mountains.</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td><b>Nabe</b></td>
+        <td>
+            <!-- Tabela de stats -->
+            <table>
+                <tr><td><i>Strength:</i> 12</td></tr>
+                <tr><td><i>Dexterity:</i> 18</td></tr>
+                <tr><td><i>Constitution:</i> 10</td></tr>
+                <tr><td><i>Intelligence:</i> 12</td></tr>
+                <tr><td><i>Wisdom:</i> 16</td></tr>
+                <tr><td><i>Charisma:</i> 12</td></tr>
+            </table>
+            <!-- Tabela de backstory -->
+            <table>
+                <tr>
+                    <td><i>Backstory:</i> Ranger from the Mystwoods.</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+    <div class="nav-buttons">
+        <a href="../index.html">Back to Home</a>
+        <span class="separator">|</span>
+        <a href="page1.html">View Character List</a>
+    </div>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 D&D Vault - All Rights Reserved</p>
+    </footer>
 </body>
 </html>

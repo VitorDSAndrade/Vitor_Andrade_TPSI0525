@@ -1,0 +1,392 @@
+/* ============================= */
+/*           BASE               */
+/* ============================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #eee;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+
+/* ============================= */
+/*           HEADER             */
+/* ============================= */
+
+.main-header {
+  background-color: #1a1a1a;
+  padding: 25px 20px 10px;
+  text-align: center;
+  border-bottom: 2px solid #ff8776;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.main-header h1 {
+  color: #ff8776;
+  font-size: 2.5em;
+  margin-bottom: 6px;
+}
+
+.main-header p {
+  color: #bbb;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+
+/* ============================= */
+/*            NAV               */
+/* ============================= */
+
+.top-nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-center a {
+  padding: 6px 14px;
+  background-color: #333;
+  color: #eee;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.85em;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-center a:hover {
+  background-color: #ff8776;
+  color: #121212;
+}
+
+
+/* ============================= */
+/*           FOOTER             */
+/* ============================= */
+
+.main-footer {
+  background-color: #1a1a1a;
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid #ff8776;
+  margin-top: 50px;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.4);
+}
+
+.main-footer p {
+  color: #888;
+  font-size: 0.9em;
+}
+
+
+/* ============================= */
+/*          TABELAS             */
+/* ============================= */
+
+table {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto 20px auto;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  color: #eee;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+
+th {
+  background-color: #ff8776;
+  color: white;
+  padding: 12px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+}
+
+td img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+td table {
+  width: 100%;
+  margin-top: 5px;
+  background-color: #2b2b2b;
+}
+
+td table td {
+  color: #eee;
+  border: none;
+  text-align: left;
+  padding: 4px 10px;
+}
+
+
+/* ============================= */
+/*       TITULOS DAS PÁGINAS    */
+/* ============================= */
+
+.page-title {
+  color: #ff8776;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0 5px;
+}
+
+.page-subtitle {
+  color: #ccc;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+/* ============================= */
+/*         NAVEGAÇÃO FINAL      */
+/* ============================= */
+
+.nav-buttons {
+  text-align: center;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-buttons a {
+  background-color: #3a3a3a;
+  color: #eee;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #555;
+}
+
+.nav-buttons span.separator {
+  color: #aaa;
+  font-size: 1.2em;
+}
+
+
+/* ============================= */
+/*           INDEX              */
+/* ============================= */
+
+.container {
+  text-align: center;
+  margin-top: 6%;
+}
+
+.container h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  color: #ff8776;
+}
+
+.container p {
+  font-size: 1.1em;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background: linear-gradient(to right, #ff6a6a, #ffb086);
+  color: #121212;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.05);
+  transform: translateY(-2px);
+}
+
+
+/* ============================= */
+/*           PAG1               */
+/* ============================= */
+
+.character-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.character-img:hover {
+  transform: scale(1.1);
+}
+
+.nabe-fix {
+  object-position: top center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal:target {
+  display: flex;
+}
+
+.modal img {
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+}
+
+.modal .close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 5px 10px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.modal .close:hover {
+  background-color: #ffffff22; /* branco transparente */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+
+td a {
+  background-color: transparent;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+td a:hover {
+  background-color: #333;
+}
+
+/* ============================= */
+/*        RESPONSIVO MOBILE     */
+/* ============================= */
+@media (max-width: 768px) {
+  .main-header h1 {
+    font-size: 1.6em;
+  }
+
+  .main-header p {
+    font-size: 0.9em;
+  }
+
+  .nav-center {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container h1,
+  .page-title {
+    font-size: 1.5em;
+  }
+
+  .page-subtitle {
+    font-size: 0.95em;
+  }
+
+  .table,
+  table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  th, td {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .character-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-buttons a {
+    display: block;
+    width: 80%;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .modal .close {
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    padding: 4px 8px;
+  }
+}
+
