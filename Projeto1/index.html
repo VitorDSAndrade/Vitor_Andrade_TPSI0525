@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Responsivo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Vitor Andrade</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Sobre Mim -->
+<section id="sobre" class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 animate__animated animate__fadeInDown">Sobre Mim</h2>
+    <p class="lead animate__animated animate__fadeIn">
+      Sou um estudante entusiasta por desenvolvimento web. Gosto de criar experiências digitais agradáveis e funcionais,
+      usando tecnologias modernas como HTML, CSS, Bootstrap e JavaScript.
+    </p>
+  </div>
+</section>
+
+<!-- Projetos -->
+<section id="projetos" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 animate__animated animate__fadeInDown">Projetos</h2>
+    <div class="row g-4">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm card-hover animate__animated animate__zoomIn">
+          <img src="../Projeto1/img/Trabalho1.png" class="card-img-top" alt="Projeto Trabalho 1">
+          <div class="card-body">
+            <h5 class="card-title">Trabalho 1</h5>
+            <p class="card-text">Webpage WIP para criação e armazenamento de character de D&D.</p>
+            <a href="https://github.com/VitorDSAndrade/Vitor_Andrade_TPSI0525/tree/main/Trabalho1" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm card-hover animate__animated animate__zoomIn">
+          <img src="../Projeto1/img/Trabalho2.png" class="card-img-top" alt="Projeto Trabalho 2">
+          <div class="card-body">
+            <h5 class="card-title">Trabalho 2</h5>
+            <p class="card-text">Webpage sobre feiras medievais de Portugal e a sua importância.</p>
+            <a href="https://github.com/VitorDSAndrade/Vitor_Andrade_TPSI0525/tree/main/Trabalho%202" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm card-hover animate__animated animate__zoomIn">
+          <img src="../Projeto1/img/Tabalho3.png" class="card-img-top" alt="Projeto Trabalho 3">
+          <div class="card-body">
+            <h5 class="card-title">Trabalho 3</h5>
+            <p class="card-text">Cópia (melhorada) de uma Webpage fornecida pelo Formador (Katchau :D).</p>
+            <a href="https://github.com/VitorDSAndrade/Vitor_Andrade_TPSI0525/tree/main/Trabalho%203" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 animate__animated animate__fadeInDown">Contacto</h2>
+    <p class="lead animate__animated animate__fadeIn">Email: vitor.andrade.t0120706@edu.atec.pt</p>
+    <p class="lead animate__animated animate__fadeIn">LinkedIn: <a href="https://www.linkedin.com/in/vitor-andrade-8819112a1/" target="_blank">Vitor-Andrade-Dev</a></p>
+  </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Vitor Andrade. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Hover
+  document.querySelectorAll('.card-hover').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+      card.classList.add('shadow-lg', 'scale-up');
+    });
+    card.addEventListener('mouseleave', () => {
+      card.classList.remove('shadow-lg', 'scale-up');
+    });
+  });
+
+  // Resize Observer
+  const cards = document.querySelectorAll('.card-hover');
+  const observer = new ResizeObserver(entries => {
+    for (let entry of entries) {
+      entry.target.classList.add('resize-animate');
+      setTimeout(() => {
+        entry.target.classList.remove('resize-animate');
+      }, 400);
+    }
+  });
+  cards.forEach(card => observer.observe(card));
+</script>
+</body>
+</html>

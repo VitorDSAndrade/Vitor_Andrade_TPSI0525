@@ -1,0 +1,114 @@
+/* Estilo escuro com laranja */
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffa500 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #f5f5f5;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffa500;
+}
+
+/* Secções */
+section {
+  scroll-margin-top: 80px;
+}
+
+#sobre {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+}
+
+#projetos {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+#contacto {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+
+
+/* Cards */
+.card {
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #ffa500;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+/* Botões */
+.btn-primary {
+  background-color: #ffa500;
+  border-color: #ffa500;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #ffb733;
+  border-color: #ffb733;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #ffa500;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Hover e Resize */
+.scale-up {
+  transform: scale(1.05);
+}
+
+.resize-animate {
+  animation: fadeInResize 0.4s ease;
+}
+
+@keyframes fadeInResize {
+  from {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
