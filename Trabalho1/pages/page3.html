@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="../Trabalho1/img/DND.png" type="image/png">
+  <title>Create Character</title>
+</head>
+<body>
+  <header class="main-header">
+    <h1>Dungeons & Dragons Character Vault</h1>
+    <p>Where legends are born.</p>
+    <nav class="top-nav">
+      <div class="nav-center">
+        <a href="../index.html">Home</a>
+        <a href="page1.html">Characters</a>
+        <a href="page2.html">Details</a>
+        <a href="page3.html">Create</a>
+      </div>
+    </nav>
+  </header>
+
+  <h2 class="page-title">Character Creator</h2>
+  <p class="page-subtitle">Create your hero and define their stats.</p>
+
+
+    <div class="form-left">
+      <form id="character-form">
+        <div class="form-wrapper with-image">
+    <div class="form-right">
+      <img id="preview" style="display: none;" alt="Image Preview" />
+    </div>
+        <input type="text" id="name" placeholder="Name" required><br>
+        <input type="text" id="race" placeholder="Race" required><br>
+        <input type="text" id="class" placeholder="Class" required><br>
+        <input type="file" id="image" accept="image/*"><br>
+
+        <textarea id="backstory" placeholder="Backstory" rows="4"></textarea><br>
+
+        <h3 class="stat-title">Stats</h3>
+        <div class="stat-group">
+          <input type="number" id="str" placeholder="Str" min="1" max="20" required>
+          <input type="number" id="dex" placeholder="Dex" min="1" max="20" required>
+          <input type="number" id="con" placeholder="Con" min="1" max="20" required>
+          <input type="number" id="int" placeholder="Int" min="1" max="20" required>
+          <input type="number" id="wis" placeholder="Wis" min="1" max="20" required>
+          <input type="number" id="cha" placeholder="Cha" min="1" max="20" required>
+        </div>
+
+        <div class="button-container">
+          <button type="submit" class="btn">Save Character</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <p>&copy; 2025 D&D Vault - All Rights Reserved</p>
+  </footer>
+
+  <script src="../js/create.js"></script>
+</body>
+</html>

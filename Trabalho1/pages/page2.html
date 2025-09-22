@@ -1,80 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Trabalho1/img/DND.png" type="image/png">
-    <meta charset="UTF-8">
-    <title>Character Details</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="../Trabalho1/img/DND.png" type="image/png">
+  <title>Character Details</title>
 </head>
 <body>
-    <header class="main-header">
-        <h1>Dungeons & Dragons Character Vault</h1>
-        <p>Where legends are born.</p>
-        <nav class="top-nav">
-            <div class="nav-center">
-                <a href="../index.html">Home</a>
-                <a href="page1.html">Characters</a>
-                <a href="page2.html">Details</a>
-            </div>
-        </nav>
-    </header>
+  <header class="main-header">
+    <h1>Dungeons & Dragons Character Vault</h1>
+    <p>Where legends are born.</p>
+    <nav class="top-nav">
+      <div class="nav-center">
+        <a href="../index.html">Home</a>
+        <a href="page1.html">Characters</a>
+        <a href="page2.html">Details</a>
+        <a href="page3.html">Create</a>
+      </div>
+    </nav>
+  </header>
 
-    <h1 class="page-title">Character Sheets</h1>
-    <p class="page-subtitle">Each hero with attributes and background story.</p>
+  <h1 class="page-title">Character Sheets</h1>
+  <p class="page-subtitle">Each hero with attributes and background story.</p>
 
-    <table>
+  <table id="details-table">
     <tr>
-        <td><b>Vysseax</b></td>
-        <td>
-            <!-- Tabela de stats -->
-            <table>
-                <tr><td><i>Strength:</i> 18</td></tr>
-                <tr><td><i>Dexterity:</i> 12</td></tr>
-                <tr><td><i>Constitution:</i> 16</td></tr>
-                <tr><td><i>Intelligence:</i> 10</td></tr>
-                <tr><td><i>Wisdom:</i> 10</td></tr>
-                <tr><td><i>Charisma:</i> 12</td></tr>
-            </table>
-            <!-- Tabela de backstory -->
-            <table>
-                <tr>
-                    <td><i>Backstory:</i> Warrior from the northern mountains.</td>
-                </tr>
-            </table>
-        </td>
+      <th>Name</th>
+      <th>Stats & Backstory</th>
     </tr>
+  </table>
 
-    <tr>
-        <td><b>Nabe</b></td>
-        <td>
-            <!-- Tabela de stats -->
-            <table>
-                <tr><td><i>Strength:</i> 12</td></tr>
-                <tr><td><i>Dexterity:</i> 18</td></tr>
-                <tr><td><i>Constitution:</i> 10</td></tr>
-                <tr><td><i>Intelligence:</i> 12</td></tr>
-                <tr><td><i>Wisdom:</i> 16</td></tr>
-                <tr><td><i>Charisma:</i> 12</td></tr>
-            </table>
-            <!-- Tabela de backstory -->
-            <table>
-                <tr>
-                    <td><i>Backstory:</i> Ranger from the Mystwoods.</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+  <div class="nav-buttons">
+    <a href="../index.html">Back to Home</a>
+    <span class="separator">|</span>
+    <a href="page1.html">View Character List</a>
+    <span class="separator">|</span>
+    <a href="page3.html">Create New Character</a>
+  </div>
 
-    <div class="nav-buttons">
-        <a href="../index.html">Back to Home</a>
-        <span class="separator">|</span>
-        <a href="page1.html">View Character List</a>
-    </div>
+  <footer class="main-footer">
+    <p>&copy; 2025 D&D Vault - All Rights Reserved</p>
+  </footer>
 
-    <footer class="main-footer">
-        <p>&copy; 2025 D&D Vault - All Rights Reserved</p>
-    </footer>
+  <script src="../js/load-details.js"></script>
 </body>
 </html>
