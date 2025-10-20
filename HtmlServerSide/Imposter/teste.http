@@ -1,0 +1,171 @@
+@baseUrl = http://localhost:4545
+
+### ===== EXERCÍCIO 0: Preparação inicial (health) =====
+# Deve responder 200 {"status":"ok"}
+GET {{baseUrl}}/api/test
+Accept: application/json
+
+
+### ===== EXERCÍCIO 1: GET /api/brands =====
+# Deve retornar lista de marcas com status 200
+GET {{baseUrl}}/api/brands
+Accept: application/json
+
+
+### ===== EXERCÍCIO 2: GET /api/cars?brand=Toyota =====
+# Deve retornar resultados específicos da marca Toyota
+GET {{baseUrl}}/api/cars?brand=Toyota
+Accept: application/json
+
+
+### ===== EXERCÍCIO 3: GET /api/cars sem parâmetros =====
+# Deve retornar results vazio
+GET {{baseUrl}}/api/cars
+Accept: application/json
+
+
+### ===== EXERCÍCIO 4: POST /api/login (credenciais corretas) =====
+# Deve retornar 200 com token válido
+POST {{baseUrl}}/api/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "admin",
+  "password": "secret"
+}
+
+
+### ===== EXERCÍCIO 5: POST /api/login (credenciais inválidas) =====
+# Deve retornar 401 invalid_credentials
+POST {{baseUrl}}/api/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "admin",
+  "password": "wrong"
+}
+
+
+### ===== EXERCÍCIO 6: POST /api/users (email duplicado) =====
+# Deve retornar 409 email_exists
+POST {{baseUrl}}/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Jane",
+  "email": "exists@example.com",
+  "age": 27
+}
+
+
+### ===== EXERCÍCIO 7: POST /api/users (criação com sucesso) =====
+# Deve retornar 201, Location e id
+POST {{baseUrl}}/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "John",
+  "email": "john@example.com",
+  "age": 31
+}
+
+
+### ===== EXERCÍCIO 8: POST /api/temperature (sem 'value') =====
+# Deve retornar 400 missing_field
+POST {{baseUrl}}/api/temperature
+Content-Type: application/json
+Accept: application/json
+
+{
+  "sensor_id": "S-1001"
+}
+
+
+### ===== EXERCÍCIO 9: POST /api/temperature (com 'value') =====
+# Deve retornar 201 status created
+POST {{baseUrl}}/api/temperature
+Content-Type: application/json
+Accept: application/json
+
+{
+  "sensor_id": "S-1001",
+  "value": 22.7
+}
+
+
+### ===== EXERCÍCIO 10: POST /api/tasks (title duplicate) =====
+# Deve retornar 409 duplicate_task
+POST {{baseUrl}}/api/tasks
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "duplicate",
+  "priority": "high"
+}
+
+
+### ===== EXERCÍCIO 11: POST /api/tasks (criação com sucesso) =====
+# Deve retornar 201, Location e id
+POST {{baseUrl}}/api/tasks
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "write report",
+  "priority": "low"
+}
+
+
+### ===== EXERCÍCIO 12: POST /api/auth (credenciais válidas) =====
+# Deve retornar 200 com token e expires_in
+POST {{baseUrl}}/api/auth
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "user1",
+  "password": "pass1"
+}
+
+
+### ===== EXERCÍCIO 12 (negativo): POST /api/auth (inválido) =====
+# Deve retornar 401 invalid_credentials
+POST {{baseUrl}}/api/auth
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "user1",
+  "password": "wrong"
+}
+
+
+### ===== EXERCÍCIO 13: GET /api/profile com Authorization =====
+# Deve retornar 200 com o perfil
+GET {{baseUrl}}/api/profile
+Accept: application/json
+Authorization: Bearer validtoken
+
+
+### ===== EXERCÍCIO 13 (negativo): GET /api/profile sem token =====
+# Deve retornar 403 forbidden
+GET {{baseUrl}}/api/profile
+Accept: application/json
+
+
+### ===== EXERCÍCIO 14: POST sem Content-Type JSON =====
+# Deve retornar 415 unsupported_media_type
+POST {{baseUrl}}/api/tasks
+
+title=foo&priority=high
+
+
+### ===== EXERCÍCIO 15: GET fallback (não definido) =====
+# Deve retornar 404 not_found
+GET {{baseUrl}}/unknown/route
+Accept: application/json
