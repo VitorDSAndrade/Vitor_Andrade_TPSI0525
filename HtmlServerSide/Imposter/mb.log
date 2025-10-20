@@ -1,0 +1,43 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.2 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-10-20T12:50:16.226Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-10-20T12:50:16.290Z"}
+{"level":"info","message":"[http:4545] Open for business...","timestamp":"2025-10-20T12:50:16.301Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58049 => GET /api/test","timestamp":"2025-10-20T12:50:25.049Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58050 => GET /api/brands","timestamp":"2025-10-20T12:50:29.205Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58051 => GET /api/cars?brand=Toyota","timestamp":"2025-10-20T12:50:32.483Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58052 => GET /api/cars","timestamp":"2025-10-20T12:50:34.813Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58056 => GET /api/cars","timestamp":"2025-10-20T12:50:48.458Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58057 => POST /api/login","timestamp":"2025-10-20T12:50:53.128Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58058 => POST /api/login","timestamp":"2025-10-20T12:51:00.325Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58061 => POST /api/users","timestamp":"2025-10-20T12:51:07.684Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58065 => POST /api/users","timestamp":"2025-10-20T12:51:09.987Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58066 => POST /api/temperature","timestamp":"2025-10-20T12:51:12.192Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58067 => POST /api/temperature","timestamp":"2025-10-20T12:51:15.316Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58068 => POST /api/tasks","timestamp":"2025-10-20T12:51:17.569Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58069 => POST /api/tasks","timestamp":"2025-10-20T12:51:19.644Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58070 => POST /api/tasks","timestamp":"2025-10-20T12:51:21.438Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58072 => POST /api/auth","timestamp":"2025-10-20T12:51:25.159Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58073 => POST /api/auth","timestamp":"2025-10-20T12:51:28.796Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58074 => GET /api/profile","timestamp":"2025-10-20T12:51:31.950Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58075 => POST /api/auth","timestamp":"2025-10-20T12:51:35.864Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58114 => POST /api/auth","timestamp":"2025-10-20T12:52:54.726Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58115 => POST /api/auth","timestamp":"2025-10-20T12:52:55.292Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58116 => POST /api/auth","timestamp":"2025-10-20T12:52:55.459Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58117 => POST /api/auth","timestamp":"2025-10-20T12:52:55.634Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58118 => POST /api/auth","timestamp":"2025-10-20T12:52:55.800Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58119 => POST /api/auth","timestamp":"2025-10-20T12:52:55.975Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58120 => POST /api/auth","timestamp":"2025-10-20T12:52:56.135Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58121 => POST /api/auth","timestamp":"2025-10-20T12:52:56.279Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58122 => POST /api/auth","timestamp":"2025-10-20T12:52:56.444Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58123 => POST /api/auth","timestamp":"2025-10-20T12:52:56.614Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58124 => POST /api/auth","timestamp":"2025-10-20T12:52:56.786Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58125 => POST /api/auth","timestamp":"2025-10-20T12:52:56.943Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58126 => POST /api/auth","timestamp":"2025-10-20T12:52:57.120Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58127 => POST /api/auth","timestamp":"2025-10-20T12:52:57.260Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58144 => POST /api/auth","timestamp":"2025-10-20T12:56:18.098Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58150 => POST /api/auth","timestamp":"2025-10-20T12:56:36.117Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58151 => POST /api/auth","timestamp":"2025-10-20T12:56:42.455Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58152 => POST /api/auth","timestamp":"2025-10-20T12:56:44.590Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58165 => GET /api/profile","timestamp":"2025-10-20T12:57:37.446Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58167 => GET /api/profile","timestamp":"2025-10-20T12:57:40.935Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58168 => POST /api/tasks","timestamp":"2025-10-20T12:57:43.535Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:58169 => GET /unknown/route","timestamp":"2025-10-20T12:57:45.314Z"}
