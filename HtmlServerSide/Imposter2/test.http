@@ -1,0 +1,166 @@
+@baseUrl = http://localhost:4646
+Accept: application/json
+
+### ===== API 1: STUDENTS =====
+# GET all students (should return list)
+GET {{baseUrl}}/api/students
+
+### Create student (valid)
+POST {{baseUrl}}/api/students
+Content-Type: application/json
+
+{
+  "name": "Charlie",
+  "age": 22,
+  "course": "Engineering"
+}
+
+### Create student (missing age -> 400)
+POST {{baseUrl}}/api/students
+Content-Type: application/json
+
+{
+  "name": "Invalid Student",
+  "course": "IT"
+}
+
+
+### ===== API 2: PRODUCTS =====
+# GET all products
+GET {{baseUrl}}/api/products
+
+### Create product (valid)
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Monitor",
+  "price": 199.99,
+  "stock": 25
+}
+
+### Create product (missing stock -> 400)
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Incomplete Product",
+  "price": 45.00
+}
+
+
+### ===== API 3: RESERVATIONS =====
+# GET all reservations
+GET {{baseUrl}}/api/reservations
+
+### Create reservation (valid)
+POST {{baseUrl}}/api/reservations
+Content-Type: application/json
+
+{
+  "client": "Maria",
+  "room": 305,
+  "nights": 4
+}
+
+### Create reservation (missing room -> 400)
+POST {{baseUrl}}/api/reservations
+Content-Type: application/json
+
+{
+  "client": "Missing Room"
+}
+
+
+### ===== API 4: LIBRARY =====
+# GET all books
+GET {{baseUrl}}/api/books
+
+### Create loan (book 2 unavailable)
+POST {{baseUrl}}/api/loans
+Content-Type: application/json
+
+{
+  "bookId": 2,
+  "user": "Ana"
+}
+
+### Create loan (valid)
+POST {{baseUrl}}/api/loans
+Content-Type: application/json
+
+{
+  "bookId": 1,
+  "user": "Ana"
+}
+
+
+### ===== API 5: EMPLOYEES =====
+# GET all employees
+GET {{baseUrl}}/api/employees
+
+### Create employee (valid)
+POST {{baseUrl}}/api/employees
+Content-Type: application/json
+
+{
+  "name": "Miguel",
+  "role": "Support",
+  "salary": 1200
+}
+
+### Create employee (invalid salary -> 400)
+POST {{baseUrl}}/api/employees
+Content-Type: application/json
+
+{
+  "name": "Fake",
+  "role": "Intern",
+  "salary": 0
+}
+
+
+### ===== API 6: TASKS =====
+# GET all tasks
+GET {{baseUrl}}/api/tasks
+
+### Create task (valid)
+POST {{baseUrl}}/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Finish report"
+}
+
+### Create task (duplicate title -> 409)
+POST {{baseUrl}}/api/tasks
+Content-Type: application/json
+
+{
+  "title": "duplicate"
+}
+
+
+### ===== API 7: CUSTOMERS & ORDERS =====
+# GET all customers
+GET {{baseUrl}}/api/customers
+
+### Create order (valid)
+POST {{baseUrl}}/api/orders
+Content-Type: application/json
+
+{
+  "customerId": 1,
+  "product": "Laptop",
+  "quantity": 2
+}
+
+### Create order (invalid customer -> 404)
+POST {{baseUrl}}/api/orders
+Content-Type: application/json
+
+{
+  "customerId": 99,
+  "product": "Tablet",
+  "quantity": 1
+}

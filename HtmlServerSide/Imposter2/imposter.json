@@ -1,0 +1,436 @@
+{
+  "protocol": "http",
+  "port": 4646,
+  "recordRequests": false,
+
+  "stubs": [
+
+    
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/api/students" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": [
+                { "id": 1, "name": "Alice", "age": 19, "course": "IT" },
+                { "id": 2, "name": "Bob", "age": 21, "course": "Design" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/students" } },
+        { "contains": { "body": "\"age\"" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": { "id": 3, "message": "Student created successfully" }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/students" } },
+        { "not": { "contains": { "body": "\"age\"" } } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "error",
+              "error": "missing_field",
+              "message": "Field 'age' is required"
+            }
+          }
+        }
+      ]
+    },
+
+   
+
+
+
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/api/products" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": [
+                { "id": 1, "name": "Mouse", "price": 15.99, "stock": 120 },
+                { "id": 2, "name": "Keyboard", "price": 45.5, "stock": 75 }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/products" } },
+        { "not": { "contains": { "body": "\"stock\"" } } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "error",
+              "error": "missing_stock",
+              "message": "Stock value is required"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/products" } },
+        { "contains": { "body": "\"stock\"" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": { "id": 3, "message": "Product added successfully" }
+            }
+          }
+        }
+      ]
+    },
+
+   
+
+
+
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/api/reservations" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": [
+                { "id": 1, "client": "John", "room": 202, "nights": 3 },
+                { "id": 2, "client": "Sophie", "room": 101, "nights": 2 }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/reservations" } },
+        { "contains": { "body": "\"room\"" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": { "id": 3, "message": "Reservation created" }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/reservations" } },
+        { "not": { "contains": { "body": "\"room\"" } } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "error",
+              "error": "missing_room",
+              "message": "Room field is required"
+            }
+          }
+        }
+      ]
+    },
+
+
+
+
+    
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/api/books" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": [
+                { "id": 1, "title": "The Hobbit", "author": "Tolkien", "available": true },
+                { "id": 2, "title": "1984", "author": "Orwell", "available": false }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/loans" } },
+        { "contains": { "body": "\"bookId\":2" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "error",
+              "error": "book_unavailable",
+              "message": "This book is already borrowed"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/loans" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": { "loanId": 99, "message": "Loan registered successfully" }
+            }
+          }
+        }
+      ]
+    },
+
+    
+
+
+
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/api/employees" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": [
+                { "id": 1, "name": "Karen", "role": "Manager", "salary": 3200 },
+                { "id": 2, "name": "Leo", "role": "Technician", "salary": 1800 }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/employees" } },
+        { "contains": { "body": "\"salary\":0" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 400,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "error",
+              "error": "invalid_salary",
+              "message": "Salary must be greater than zero"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/employees" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": { "id": 3, "message": "Employee created" }
+            }
+          }
+        }
+      ]
+    },
+
+   
+
+
+
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/api/tasks" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": [
+                { "id": 1, "title": "Prepare report", "completed": false },
+                { "id": 2, "title": "Clean workspace", "completed": true }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/tasks" } },
+        { "contains": { "body": "\"title\":\"duplicate\"" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 409,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "error",
+              "error": "duplicate_task",
+              "message": "Task already exists"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/tasks" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": { "id": 3, "message": "Task added successfully" }
+            }
+          }
+        }
+      ]
+    },
+
+   
+
+
+
+    {
+      "predicates": [
+        { "equals": { "method": "GET", "path": "/api/customers" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": [
+                { "id": 1, "name": "Marta", "email": "marta@mail.com" },
+                { "id": 2, "name": "Daniel", "email": "daniel@mail.com" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/orders" } },
+        { "contains": { "body": "\"customerId\":99" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "error",
+              "error": "customer_not_found",
+              "message": "Customer ID not found"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        { "equals": { "method": "POST", "path": "/api/orders" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 201,
+            "headers": { "Content-Type": "application/json" },
+            "body": {
+              "status": "success",
+              "data": { "orderId": 45, "message": "Order created successfully" }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

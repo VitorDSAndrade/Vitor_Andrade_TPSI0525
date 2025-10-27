@@ -1,0 +1,25 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.2 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-10-26T13:32:56.693Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-10-26T13:32:56.746Z"}
+{"level":"info","message":"[http:4646] Open for business...","timestamp":"2025-10-26T13:32:56.757Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50401 => POST /api/students","timestamp":"2025-10-26T13:33:05.851Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50408 => GET /api/students","timestamp":"2025-10-26T13:33:43.162Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50410 => POST /api/students","timestamp":"2025-10-26T13:33:47.514Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50411 => POST /api/students","timestamp":"2025-10-26T13:33:52.758Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50412 => GET /api/products","timestamp":"2025-10-26T13:33:56.310Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50414 => GET /api/products","timestamp":"2025-10-26T13:34:00.892Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50415 => POST /api/products","timestamp":"2025-10-26T13:34:03.539Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50416 => POST /api/products","timestamp":"2025-10-26T13:34:11.133Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50417 => GET /api/reservations","timestamp":"2025-10-26T13:34:14.634Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50419 => POST /api/reservations","timestamp":"2025-10-26T13:34:18.055Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50420 => POST /api/reservations","timestamp":"2025-10-26T13:34:20.361Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50421 => GET /api/books","timestamp":"2025-10-26T13:34:22.161Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50422 => POST /api/loans","timestamp":"2025-10-26T13:34:23.584Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50423 => GET /api/employees","timestamp":"2025-10-26T13:34:25.477Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50424 => POST /api/employees","timestamp":"2025-10-26T13:34:27.206Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50425 => POST /api/employees","timestamp":"2025-10-26T13:34:30.188Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50426 => POST /api/employees","timestamp":"2025-10-26T13:34:31.653Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50428 => GET /api/tasks","timestamp":"2025-10-26T13:34:33.474Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50431 => POST /api/orders","timestamp":"2025-10-26T13:34:51.124Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50512 => GET /api/students","timestamp":"2025-10-26T13:42:52.882Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50513 => GET /api/students","timestamp":"2025-10-26T13:42:52.968Z"}
+{"level":"info","message":"[http:4646] ::ffff:127.0.0.1:50710 => POST /api/students","timestamp":"2025-10-26T14:04:26.796Z"}
