@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\controllers\\standcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\controllers\\standcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\data\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\data\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\reservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\reservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|c:\\dev\\vitor_andrade_tpsi0525\\htmlserverside\\api_ex\\api_1\\api_1\\models\\standcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226BE20E-2497-BC5C-2A84-42ADCB23028B}|API_1\\API_1.csproj|solutionrelative:api_1\\models\\standcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:44:57.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:44:38.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:44:23.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:44:00.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\LoansController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\LoansController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:43:43.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:43:21.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:42:58.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:42:19.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:41:56.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Program.cs",
+              "RelativeDocumentMoniker": "API_1\\Program.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Program.cs",
+              "RelativeToolTip": "API_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:33:48.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "API_1\\Data\\SeedData.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Data\\SeedData.cs",
+              "RelativeToolTip": "API_1\\Data\\SeedData.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:33:28.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Order.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Order.cs",
+              "RelativeToolTip": "API_1\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:29:16.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Costumer.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Costumer.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Costumer.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Costumer.cs",
+              "RelativeToolTip": "API_1\\Models\\Costumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:28:57.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\TaskItem.cs",
+              "RelativeToolTip": "API_1\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:26:52.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Employee.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Employee.cs",
+              "RelativeToolTip": "API_1\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:25:55.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Loan.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Loan.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Loan.cs",
+              "RelativeToolTip": "API_1\\Models\\Loan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:25:35.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Book.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Book.cs",
+              "RelativeToolTip": "API_1\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:25:11.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Reservations.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Reservations.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Reservations.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Reservations.cs",
+              "RelativeToolTip": "API_1\\Models\\Reservations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:24:56.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Product.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Product.cs",
+              "RelativeToolTip": "API_1\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:24:32.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\Student.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\Student.cs",
+              "RelativeToolTip": "API_1\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:24:06.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StandController.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\StandController.cs",
+              "RelativeDocumentMoniker": "API_1\\Controllers\\StandController.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Controllers\\StandController.cs",
+              "RelativeToolTip": "API_1\\Controllers\\StandController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:41:21.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiContext.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Data\\ApiContext.cs",
+              "RelativeDocumentMoniker": "API_1\\Data\\ApiContext.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Data\\ApiContext.cs",
+              "RelativeToolTip": "API_1\\Data\\ApiContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:40:57.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StandCars.cs",
+              "DocumentMoniker": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\StandCars.cs",
+              "RelativeDocumentMoniker": "API_1\\Models\\StandCars.cs",
+              "ToolTip": "C:\\dev\\Vitor_Andrade_TPSI0525\\HtmlServerSide\\API_EX\\API_1\\API_1\\Models\\StandCars.cs",
+              "RelativeToolTip": "API_1\\Models\\StandCars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:40:23.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
